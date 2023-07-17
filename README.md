@@ -2,7 +2,7 @@
 Use jax/haiku to perform regression from x-ray data to age of the patient
 
 # blog post
-See [this post](https://kjabon.github.io/blog/2023/ImageRegressionJax/) where I walk through the more interesting bits of code and training curves.
+See [this post](https://kjabon.github.io/blog/2023/ImageRegressionJax/) where I walk through the more interesting bits of code and training curves, working up to iteratively better results.
 
 # dataset preparation
 Note, you need to use tensorflow-datasets to package the [kaggle nih xray dataset](https://www.kaggle.com/datasets/nih-chest-xrays/data) into something useable yourself.
