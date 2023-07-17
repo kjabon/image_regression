@@ -19,7 +19,7 @@ where it can be run with ``tfds build`` from the terminal in the enclosing direc
 - haiku
 - optax
 - tensorflow-datasets
-- jmp (optional, you can comment the relevant bits out)
+- jmp (optional, you can comment the relevant bits out in trainRegression.py)
 - numpy
 - dm-tree
 - abseil-py
