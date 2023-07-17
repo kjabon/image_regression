@@ -1,5 +1,5 @@
 # image_regression
-Use jax/haiku to perform regression from x-ray data to age of the patient
+Use jax/haiku to perform regression from x-ray data to age of the patient, and also implement RandAugment in jax (borrowing from others' code).
 
 # blog post
 See [this post](https://kjabon.github.io/blog/2023/ImageRegressionJax/) where I walk through the more interesting bits of code and training curves, working up to iteratively better results.
@@ -25,3 +25,7 @@ where it can be run with ``tfds build`` from the terminal in the enclosing direc
 - abseil-py
 - PIL
 - GPUtil
+- keras_cv (optional, can comment out the relevant bits in preprocess.py)
+- tensorflow
+- dm-pix
+- imax
