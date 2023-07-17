@@ -13,3 +13,15 @@ For anyone interested in image processing, tfds is a worthwhile skill, and many 
 Example code for creating a tfds dataset can be found in:
 ``./tfdatasets/age_nih/age_nih_dataset_builder.py``
 where it can be run with ``tfds build`` from the terminal in the enclosing directory, ``age_nih``, once the dataset has been downloaded.
+
+# requirements
+- jax ([install](https://github.com/google/jax#pip-installation-gpu-cuda-installed-via-pip-easier) with gpu support)
+- haiku
+- optax
+- tensorflow-datasets
+- jmp (optional, you can comment the relevant bits out)
+- numpy
+- dm-tree
+- abseil-py
+- PIL
+- GPUtil
